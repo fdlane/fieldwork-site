@@ -1,3 +1,7 @@
+---
+title: Home
+layout: default
+---
 ## Knoxville Utility Board (KUB) Student Project
 # Project Description:
 # Cloud-Based Fieldwork System for dispatching and completing work in the field
