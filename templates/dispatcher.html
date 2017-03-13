@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+
+<head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <!-- Tabel scripts-->
+
+    <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<link rel="stylesheet"
+href="http://cdn.datatables.net/1.10.2/css/jquery.dataTables.min.css"></style>
+<script type="text/javascript"
+src="http://cdn.datatables.net/1.10.2/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript"
+src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>-->
+
+
+    <!-- Awesome fonts-->
+    <script src="https://use.fontawesome.com/b03c52441a.js"></script>
+
+    <!-- Table css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">KUB</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-4 col-sm-offset-8 col-md-4 col-md-offset-8 job-search-box">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search jobs...">
+                    <span class="input-group-btn">
+                  <button class="btn btn-primary" type="button">
+                  <span class="fa fa-search"></span>
+                    </button>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+
+            <!-- Workers table-->
+            <div class="col-sm-4 col-md-4 col-lg-4">
+
+
+                <div class="panel panel-default panel-table">
+                    <div class="panel-heading">
+                        <div class="row">
+                            <div class="col col-sm-6 col-md-6 col-lg-6">
+                                <h3 class="panel-title">Workers</h3>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="panel-body table-responsive">
+                        <table class="table table-hover table-striped">
+                            <thead>
+                                <tr>
+                                    <th>
+                                        Name
+                                        <i class="fa fa-caret-up"></i>
+                                    </th>
+
+                                    <th>Status</th>
+                                    <th>Count</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>001</td>
+                                    <td>Anusha</td>
+                                    <td>Knoxville</td>
+
+                                </tr>
+                                <tr>
+                                    <td>002</td>
+                                    <td>Charles</td>
+                                    <td>Kodak</td>
+
+                                </tr>
+                                <tr>
+                                    <td>003</td>
+                                    <td>Sravani</td>
+                                    <td>Pigeon Forge</td>
+
+                                </tr>
+                                <tr>
+                                    <td>004</td>
+                                    <td>Amar</td>
+                                    <td>Powell</td>
+
+                                </tr>
+                                <tr>
+                                    <td>005</td>
+                                    <td>Lakshmi</td>
+                                    <td>Turkey Creek</td>
+
+                                </tr>
+                                <tr>
+                                    <td>006</td>
+                                    <td>James</td>
+                                    <td>Nortshore</td>
+
+                                </tr>
+
+                                <tr>
+                                    <td>007</td>
+                                    <td>Ronald</td>
+                                    <td>Cumberland</td>
+
+                                </tr>
+                                <tr>
+                                    <td>008</td>
+                                    <td>Mike</td>
+                                    <td>Downtown</td>
+
+                                </tr>
+                                <tr>
+                                    <td>009</td>
+                                    <td>Andrew</td>
+                                    <td>East</td>
+
+                                </tr>
+
+                                <tr>
+                                    <td>010</td>
+                                    <td>Stephen</td>
+                                    <td>Indian River</td>
+
+                                </tr>
+                                <tr>
+                                    <td>011</td>
+                                    <td>Sara</td>
+                                    <td>Cumberland</td>
+
+                                </tr>
+                                <tr>
+                                    <td>012</td>
+                                    <td>JonRoot</td>
+                                    <td>Fountain City</td>
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Jobs Table-->
+            <div class="col-sm-8 col-md-8 col-lg-8">
+                <div class="panel panel-default panel-table">
+                    <div class="panel-heading">
+                        <div class="row">
+                            <div class="col col-sm-6 col-md-6 col-lg-6">
+                                <h3 class="panel-title">Jobs</h3>
+                            </div>
+                            <div class="col col-sm-6 col-md-6 col-lg-6 text-right">
+                                <button type="button" class="btn btn-primary btn-sm">Add</button>
+                                <button type="button" class="btn btn-primary btn-sm">Remove</button>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel-body table-responsive">
+                        <table class="table table-hover table-striped">
+                            <thead>
+                                <tr>
+                                    <th>
+                                        EMP#
+                                        <i class="fa fa-caret-up"></i>
+                                    </th>
+
+                                    <th>EMPName</th>
+                                    <th>Address</th>
+                                    <th>Salary</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>001</td>
+                                    <td>Anusha</td>
+                                    <td>Knoxville</td>
+                                    <td>10000</td>
+                                </tr>
+                                <tr>
+                                    <td>002</td>
+                                    <td>Charles</td>
+                                    <td>Kodak</td>
+                                    <td>28000</td>
+                                </tr>
+                                <tr>
+                                    <td>003</td>
+                                    <td>Sravani</td>
+                                    <td>Pigeon Forge</td>
+                                    <td>7000</td>
+                                </tr>
+                                <tr>
+                                    <td>004</td>
+                                    <td>Amar</td>
+                                    <td>Powell</td>
+                                    <td>18000</td>
+                                </tr>
+                                <tr>
+                                    <td>005</td>
+                                    <td>Lakshmi</td>
+                                    <td>Turkey Creek</td>
+                                    <td>12000</td>
+                                </tr>
+                                <tr>
+                                    <td>006</td>
+                                    <td>James</td>
+                                    <td>Nortshore</td>
+                                    <td>50000</td>
+                                </tr>
+
+                                <tr>
+                                    <td>007</td>
+                                    <td>Ronald</td>
+                                    <td>Cumberland</td>
+                                    <td>75000</td>
+                                </tr>
+                                <tr>
+                                    <td>008</td>
+                                    <td>Mike</td>
+                                    <td>Downtown</td>
+                                    <td>100000</td>
+                                </tr>
+                                <tr>
+                                    <td>009</td>
+                                    <td>Andrew</td>
+                                    <td>East</td>
+                                    <td>45000</td>
+                                </tr>
+
+                                <tr>
+                                    <td>010</td>
+                                    <td>Stephen</td>
+                                    <td>Indian River</td>
+                                    <td>30000</td>
+                                </tr>
+                                <tr>
+                                    <td>011</td>
+                                    <td>Sara</td>
+                                    <td>Cumberland</td>
+                                    <td>750000</td>
+                                </tr>
+                                <tr>
+                                    <td>012</td>
+                                    <td>JonRoot</td>
+                                    <td>Fountain City</td>
+                                    <td>65000</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="panel-footer">
+                        <div class="row">
+                            <div class="col col-sm-4 col-md-4 col-lg-4">Page 1 of 5
+                            </div>
+                            <div class="col col-sm-8 col-md-8 col-lg-8">
+                                <ul class="pagination hidden-xs pull-right">
+                                    <li><a href="#">1</a></li>
+                                    <li><a href="#">2</a></li>
+                                    <li><a href="#">3</a></li>
+                                    <li><a href="#">4</a></li>
+                                    <li><a href="#">5</a></li>
+                                </ul>
+                                <ul class="pagination visible-xs pull-right">
+                                    <li><a href="#">«</a></li>
+                                    <li><a href="#">»</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
