@@ -1,0 +1,7 @@
+## System Architecture
+
+# A Diagram Showing the Components
+
+
+![GitHub](./images/system-architecture.jpg")
+Format:![System Architecture]
