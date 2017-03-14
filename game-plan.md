@@ -1,5 +1,5 @@
 ---
-title: Game Plane
+title: Game Plan
 layout: default
 ---
 
