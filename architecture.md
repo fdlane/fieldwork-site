@@ -10,3 +10,5 @@ layout: default
 
 ![GitHub](./images/system-architecture.jpg")
 Format:![System Architecture]
+
+diagram by Amber Rivera
