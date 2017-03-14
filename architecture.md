@@ -1,6 +1,11 @@
-## System Architecture
+---
+title: System Architecture
+layout: default
+---
 
-# A Diagram Showing the Components
+# System Architecture
+
+## A Diagram Showing the Components
 
 
 ![GitHub](./images/system-architecture.jpg")
