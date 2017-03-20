@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 
 <head>
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -13,8 +16,14 @@
     <!-- Awesome fonts-->
     <script src="https://use.fontawesome.com/b03c52441a.js"></script>
 
+
+
+
     <!-- Table css -->
     <link rel="stylesheet" href="css/style.css">
+
+    <script src="script/script.js"></script>
+
 </head>
 
 <body>
@@ -36,7 +45,7 @@
 
     <div class="container-fluid">
         <div class="row">
-            <div class="col-sm-4 col-sm-offset-8 col-md-4 col-md-offset-8 job-search-box">
+            <div class="col-sm-4 col-sm-8 col-md-4 col-md-8 job-search-box">
                 <div class="input-group">
                     <input type="text" class="form-control" placeholder="Search jobs...">
                     <span class="input-group-btn">
@@ -49,112 +58,8 @@
         </div>
         <div class="row">
 
-            <!-- Workers table-->
-            <div class="col-sm-4 col-md-4 col-lg-4">
 
 
-                <div class="panel panel-default panel-table">
-                    <div class="panel-heading">
-                        <div class="row">
-                            <div class="col col-sm-6 col-md-6 col-lg-6">
-                                <h3 class="panel-title">Workers</h3>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="panel-body table-responsive">
-                        <table class="table table-hover table-striped">
-                            <thead>
-                                <tr>
-                                    <th>
-                                        Name
-                                        <i class="fa fa-caret-up"></i>
-                                    </th>
-
-                                    <th>Status</th>
-                                    <th>Count</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>001</td>
-                                    <td>Anusha</td>
-                                    <td>Knoxville</td>
-
-                                </tr>
-                                <tr>
-                                    <td>002</td>
-                                    <td>Charles</td>
-                                    <td>Kodak</td>
-
-                                </tr>
-                                <tr>
-                                    <td>003</td>
-                                    <td>Sravani</td>
-                                    <td>Pigeon Forge</td>
-
-                                </tr>
-                                <tr>
-                                    <td>004</td>
-                                    <td>Amar</td>
-                                    <td>Powell</td>
-
-                                </tr>
-                                <tr>
-                                    <td>005</td>
-                                    <td>Lakshmi</td>
-                                    <td>Turkey Creek</td>
-
-                                </tr>
-                                <tr>
-                                    <td>006</td>
-                                    <td>James</td>
-                                    <td>Nortshore</td>
-
-                                </tr>
-
-                                <tr>
-                                    <td>007</td>
-                                    <td>Ronald</td>
-                                    <td>Cumberland</td>
-
-                                </tr>
-                                <tr>
-                                    <td>008</td>
-                                    <td>Mike</td>
-                                    <td>Downtown</td>
-
-                                </tr>
-                                <tr>
-                                    <td>009</td>
-                                    <td>Andrew</td>
-                                    <td>East</td>
-
-                                </tr>
-
-                                <tr>
-                                    <td>010</td>
-                                    <td>Stephen</td>
-                                    <td>Indian River</td>
-
-                                </tr>
-                                <tr>
-                                    <td>011</td>
-                                    <td>Sara</td>
-                                    <td>Cumberland</td>
-
-                                </tr>
-                                <tr>
-                                    <td>012</td>
-                                    <td>JonRoot</td>
-                                    <td>Fountain City</td>
-
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
 
 
             <!-- Jobs Table-->
@@ -166,33 +71,31 @@
                                 <h3 class="panel-title">Jobs</h3>
                             </div>
                             <div class="col col-sm-6 col-md-6 col-lg-6 text-right">
-                                <button type="button" class="btn btn-primary btn-sm">Add</button>
-                                <button type="button" class="btn btn-primary btn-sm">Remove</button>
-
-
+                                <button type="button" class="btn btn-primary btn-sm">On Route</button>
+                                <button type="button" class="btn btn-primary btn-sm">Completed</button>
                             </div>
                         </div>
                     </div>
+
                     <div class="panel-body table-responsive">
-                        <table class="table table-hover table-striped">
+                        <table class="table table-hover table-striped table-responsive">
+
                             <thead>
                                 <tr>
-                                    <th>
-                                        EMP#
-                                        <i class="fa fa-caret-up"></i>
-                                    </th>
-
-                                    <th>EMPName</th>
+                                    <th>Description</th>
+                                    <th>JobName</th>
                                     <th>Address</th>
-                                    <th>Salary</th>
+                                    <th>Date</th>
                                 </tr>
                             </thead>
+
                             <tbody>
                                 <tr>
+
                                     <td>001</td>
                                     <td>Anusha</td>
                                     <td>Knoxville</td>
-                                    <td>10000</td>
+                                    <td>01/01/17</td>
                                 </tr>
                                 <tr>
                                     <td>002</td>
@@ -289,6 +192,110 @@
         </div>
     </div>
 
+    <!-- Modal -->
+    <div class="modal" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="text-danger fa fa-times"></i></button>
+                    <h4 class="modal-title" id="myModalLabel"><i class="text-muted fa fa-user-circle"></i> <strong>02051</strong> - Job Name </h4>
+                </div>
+                <div class="modal-body">
+
+                    <table class="pull-left col-md-8 ">
+                        <tbody>
+                            <tr>
+                                <td class="h6"><strong>Job Number</strong></td>
+                                <td> </td>
+                                <td class="h5">02051</td>
+                            </tr>
+
+                            <tr>
+                                <td class="h6"><strong>Job Description</strong></td>
+                                <td> </td>
+                                <td class="h5">Here goes job description</td>
+                            </tr>
+
+                            <tr>
+                                <td class="h6"><strong>Type of job</strong></td>
+                                <td> </td>
+                                <td class="h5">Fix something</td>
+                            </tr>
+
+                            <tr>
+                                <td class="h6"><strong>Job Address</strong></td>
+                                <td> </td>
+                                <td class="h5">666 Wrong Turn</td>
+                            </tr>
+
+                            <tr>
+                                <td class="h6"><strong>Required Materials</strong></td>
+                                <td> </td>
+                                <td class="h5">Crucifix and garlic</td>
+                            </tr>
+
+                            <tr>
+                                <td class="h6"><strong>Contact Information</strong></td>
+                                <td> </td>
+                                <td class="h5">Mail pigeon</td>
+                            </tr>
+
+                            <tr>
+                                <td class="h6"><strong>Due date</strong></td>
+                                <td> </td>
+                                <td class="h5">Before end of the world</td>
+                            </tr>
+
+                            <tr>
+                                <td class="h6"><strong>Number of Tech. Require</strong></td>
+                                <td> </td>
+                                <td class="h5">If they are polish 4</td>
+                            </tr>
+
+                            <tr>
+                                <td class="h6"><strong>Additional Information</strong></td>
+                                <td> </td>
+                                <td class="h5">Bring Holy Water</td>
+                            </tr>
+
+                            <tr>
+                                <td class="btn-mais-info text-primary">
+                                    <i class="open_info fa fa-plus-square-o"></i>
+                                    <i class="open_info hide fa fa-minus-square-o"></i> Information
+                                </td>
+                                <td> </td>
+                                <td class="h5"></td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+
+
+                    <div class="col-md-4">
+                        <img src="img/lines.jpg" alt="teste" class="img-thumbnail">
+                    </div>
+
+                    <div class="clearfix"></div>
+                    <p class="open_info hide">Something</p>
+                </div>
+
+                <div class="modal-footer">
+
+                    <div class="text-right pull-right col-md-3">
+                        In date: <br/>
+                        <span class="h3 text-muted"><strong> 01/01/17 </strong></span></span>
+                    </div>
+
+                    <div class="text-right pull-right col-md-3">
+                        Due Date: <br/>
+                        <span class="h3 text-muted"><strong>01/10/17</strong></span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
+
 
 </html>
