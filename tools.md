@@ -6,7 +6,7 @@ layout: default
 
 ## NPM, Node Package Manager
 This is software built for node.js that allows you to easily install and manage packages in your development environment.<br />
-More https://www.npmjs.com/
+More here: [NPM](https://www.npmjs.com/)
 
 ## GitHub
 Git is software that tracks differences is different versions of the same software while GitHub is the host for the files pushed with Git. There are other git services.<br />
