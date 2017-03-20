@@ -1,5 +1,5 @@
 $(function () {
-    /* BOOTSNIPP FULLSCREEN FIX */
+    
     if (window.location == window.parent.location) {
         $('#back-to-bootsnipp').removeClass('hide');
         $('.alert').addClass('hide');
