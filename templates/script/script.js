@@ -1,11 +1,6 @@
 $(function () {
     
-    if (window.location == window.parent.location) {
-        $('#back-to-bootsnipp').removeClass('hide');
-        $('.alert').addClass('hide');
-    }
-
-       $('tbody > tr').on('click', function(event) {
+    $('tbody > tr').on('click', function(event) {
         event.preventDefault();
         $('#myModal').modal('show');
     })
