@@ -5,12 +5,7 @@ $(function () {
         $('.alert').addClass('hide');
     }
 
-    $('#fullscreen').on('click', function(event) {
-        event.preventDefault();
-        window.parent.location = "http://bootsnipp.com/iframe/Q60Oj";
-    });
-
-    $('tbody > tr').on('click', function(event) {
+       $('tbody > tr').on('click', function(event) {
         event.preventDefault();
         $('#myModal').modal('show');
     })
