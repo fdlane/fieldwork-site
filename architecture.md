@@ -10,6 +10,5 @@ layout: default
 #### Fieldwork-worker recieves assignments, filter for that worker, from the dispatcher. As work is completed, the worker sends the change of status to the database and the dispatcher sees this immediately.
 
 ![GitHub](./images/system-architecture.jpg)
-Format:![System Architecture]
 
                           Diagram by Amber Rivera
