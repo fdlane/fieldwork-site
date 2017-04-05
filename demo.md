@@ -7,4 +7,4 @@ layout: default
 
 [Worker](http://fieldwork-worker.firebaseapp.com)
 
-[Dispatcher](http://pstcc2017fieldwork.firebaseapp.com)
+[Dispatcher](http://fieldwork-dispatcher.firebaseapp.com)
