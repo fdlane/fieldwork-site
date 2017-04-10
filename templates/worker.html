@@ -17,7 +17,7 @@
     <script src="https://use.fontawesome.com/b03c52441a.js"></script>
 
     <!-- Table css -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/app.css">
 
     <script src="script/script.js"></script>
 </head>
@@ -33,7 +33,7 @@
                 <li class="active"><a href="#">Home</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                <li><a href="#"><i class="fa fa-sign-in" aria-hidden="true"></i> Login</a></li>
             </ul>
         </div>
     </nav>
@@ -190,7 +190,12 @@
                     <h4 class="modal-title" id="myModalLabel"><i class="text-muted fa fa-user-circle"></i> <strong>02051</strong> - Job Name </h4>
 
                     <!-- Camera Button -->
-                    <button type="button" class="btn btn-primary btn-sm center-block"><i class="fa fa-camera" aria-hidden="true"> Upload Photo</i></button>
+                    <button type="button" class="btn btn-primary btn-sm center-block photo-upload-button">
+                      <span class="fa-stack camera-button--add">
+                        <i class="fa fa-camera fa-stack-2x"></i>
+                        <i class="fa fa-plus fa-stack-1x"></i>
+                      </span>
+                    </button>
                 </div>
 
                 <div class="modal-body">
