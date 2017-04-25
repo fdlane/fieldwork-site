@@ -3,9 +3,6 @@ title: Home
 layout: default
 ---
 ## Student Project for Computer Information Technology Applied Systems Development
-### Pellissippi State Community College (PSTCC) Knoxville, Tennessee in Cooperation with Knoxville Utility Board (KUB)
-#### KUB
-
 
 KUB, pronounced K. U. B. is an [award-winning](https://www.kub.org/about/about-kub/kub-service-areas/electricity/) not-for-profit municipal utility in Knoxville, Tennessee.  For the last 75 years, KUB has served Knox county and parts seven surrounding counties with electric, gas, water, and wastewater utilities.  The company currently employs just over 1000 people and has 900k budget.  KUB has 445 thousand customers, 10 thousand miles of pipe, 32 thousand manholes, and is the 4th largest electric distributor for Tennessee Valley Authority (TVA).
 #### PSTCC
