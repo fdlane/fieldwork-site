@@ -3,7 +3,12 @@ title: Home
 layout: default
 ---
 ## Student Project for Computer Information Technology Applied Systems Development
-### Knoxville Utility Board and Pellissippi Community College
+
+### Knoxville Utility Board and Pellissippi State Community College
+#### The Project Team
+KUB Mentors: DeWayne Lane, Keith Clinard, and Zachary Berardo
+
+PSTCC Students: Amber Rivera (team leader), Donald Nash, Michal Kaminski, and Maude Volk
 #### KUB
 KUB, pronounced K. U. B. is an [award-winning](https://www.kub.org/about/about-kub/kub-service-areas/electricity/) not-for-profit municipal utility in Knoxville, Tennessee.  For the last 75 years, KUB has served Knox county and parts seven surrounding counties with electric, gas, water, and wastewater utilities.  The company currently employs just over 1000 people and has 900k budget.  KUB has 445 thousand customers, 10 thousand miles of pipe, 32 thousand manholes, and is the 4th largest electric distributor for Tennessee Valley Authority (TVA).
 #### PSTCC
